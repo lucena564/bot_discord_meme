@@ -1,0 +1,3 @@
+pip install -r requeriments.txt -t python
+
+zip -r python.zip python
