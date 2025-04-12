@@ -2,3 +2,6 @@ discord.py==2.3.2
 python-dotenv
 schedule
 PyNaCl
+typing-extensions
+async-timeout
+aiohttp==3.9.3
