@@ -1,0 +1,14 @@
+Verificações:
+
+Foi necessário configurar a lambda para ela conseguir acessar o S3. 
+Para isso eu fui nas configurações da Role da lambda e adicionei a permissão de read file, mais especificamente em: AmazonS3ReadOnlyAccess
+
+Após esse processo funcionou bem!
+
+Script:
+
+Entra na Lambda -> Configurações -> Permissões
+
+Vai abrir uma aba de "Execution Role"
+
+Vai em "Role name" e clica no nome azul para ser direcionado ao IAM dessa role. Dentro dela eu adicionei a role de ler o S3, então funcionou tranquilamente.

@@ -32,5 +32,8 @@ async def on_ready():
         print("❌ Canal não encontrado.")
     await client.close()
 
-def lambda_handler(event, context):
-    asyncio.run(client.start(TOKEN))
+# def lambda_handler(event, context):
+#     asyncio.run(client.start(TOKEN))
+
+
+asyncio.run(client.start(TOKEN))

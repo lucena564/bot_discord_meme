@@ -1,0 +1,5 @@
+Problemas com esse método
+
+Infelizmente, quando eu coloquei para acessar o S3 usando o link do "Share with a presigned URL" existe um tempo que precisamos configurar.
+
+O tempo configurado só vai até 12 horas ou 720 minutos (caso queira especificar em minutos)
